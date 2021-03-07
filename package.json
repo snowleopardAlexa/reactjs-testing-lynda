@@ -1,0 +1,49 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^17.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "coverage": "npm run test -- --coverage",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.3.1",
+    "flow-bin": "^0.146.0",
+    "prettier": "^2.2.1"
+  }
+}
